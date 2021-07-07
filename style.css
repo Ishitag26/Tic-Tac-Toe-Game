@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #0a1931;
+}
+.heading{
+    color: #feddbe;
+    text-align: center;
+}
+.container{
+    display: grid;
+    gap: 0.1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 26rem;
+    margin: auto;
+}
+.box{
+    height: 8rem;
+    background-color: #185adb;
+    color: #ffc947;
+    font-size: 7rem;
+    text-align: center;
+    cursor: pointer;
+}
+.btn{
+    background-color: #aac947;
+    color: #185adb;
+    margin: auto;
+    border: 0px;
+    border-radius: 0px;
+    padding: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #aac947;
+}
+.reset-container{
+    text-align: center;
+}
